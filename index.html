@@ -11,6 +11,20 @@
 
         <link rel="stylesheet" href="./style.css">
 
+        <head>
+            <!--jQuery 語法-->
+            <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+            <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+            <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+            <script>
+            $(function() {
+              $( "main" ).hide();
+              $( "main" ).fadeIn(2000);
+            });
+            </script>
+          </head>
+
+          
     </head>
 <!-- head標頭資訊設定結束
 ================================================== -->   
@@ -33,9 +47,16 @@
 	<!-- nav導覽列設定結束--> 
 	</header>
 	<!-- header標頭結束-->
-	 
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
 	<!-- main內文設定開始--> 
 	<main>
+        <img src="img\bird.jpg" />
+        <p><p> 
         不管去哪裡<br>
         都是死路一條　差點就要把呼吸般鮮明的憤恨<br>
         就這樣朝著某處　隨意潑灑<br>
@@ -43,8 +64,9 @@
         不論是誰都有這種自卑感和內心的衝突<br>
         理由都一樣<br>
         咦？<br>
-        <p><p></p></p>
+        <p><p>
         Ah<br>
+        </p></p>
         這世界不就是貪得無厭什麼都想要嗎？<br>
         又再次被這運轉著的世界所吞噬<br>
         理由還是一樣<br>
@@ -103,6 +125,35 @@
         welcome to the dirty night<br>
         正因世道如此　眾人才安撫慰藉著彼此<br>
 	<p></p>
+
+    <div id="tabs">
+        <ul>
+
+            <div class="block"></div>
+
+            <li><a href="#tabs-1"><i class="fas fa-bullhorn"></i> <button type="button" id="hideBtn">不可幸力 </button></a></li> <!-- tabs標題1，加入Font Awesome-->
+            <li><a href="#tabs-2"><i class="fas fa-heart"></i><button type="button" id="slideBtn">不可抗力 ふかこうりょく</button></a></li> <!-- tabs標題2，加入Font Awesome-->
+            
+        </ul>
+        <div id="tabs-1">
+            <p>「不可幸力」跟日文「不可抗力」的發音一樣，從歌名就讓人充滿充滿好奇。這首歌以諷刺世情RAP 開始，歌詞可以說是「不可幸力」的雙關解釋「讓人無法獲得幸福的巨大力量」與「對獲得幸福沒有抵抗力」 間的搖擺與轉換，匠心獨具。</p>
+        </div>
+        <div id="tabs-2">
+            <p>人力不可抗拒，不可抗力。</p>
+        </p>
+        </div>
+    </div>
+
+    </p></p>
+
+    <p>
+        <iframe  width="50%" height="500" src="https://www.youtube.com/watch?v=Ki6urcsmtlE"
+            style="border:1px solid rgb(0, 0, 0), 0, 0);"
+            title="Vaundy [ 不可幸力 ]  (1st album「strobo」) Official Music Video" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </p>
+
 	<a href="https://www.youtube.com/watch?v=Gbz2C2gQREI" target="_blank">聽歌去</a><br>   <!-- a 超連結設定，需搭配href，target="_blank開啟新視窗--> 
 
     <a href="https://www.youtube.com/watch?v=Gbz2C2gQREI" target=>聽歌去2</a>
