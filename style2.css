@@ -8,7 +8,7 @@
 body{
 	font-family:"Noto Sans TC", sans-serif; /* google雲端字體 思源黑體 */
 	margin: 0;                      /* 外部距離設為0 */
-	background:url("img/bird.jpg");  /* 背景圖片 */
+	background:url("img/light.jpg");  /* 背景圖片 */
 	background-attachment: fixed;   /* 固定背景圖片 */
 	text-align: center;             /* 文字居中對齊 */
 	-webkit-text-size-adjust: 100%; /* 文字大小會達到易讀的大小，但是不會修改佈局 */
